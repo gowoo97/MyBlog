@@ -1,11 +1,14 @@
 import './App.css';
 import LoginTemplate from './LoginTemplate';
+import { Route, Routes} from 'react-router-dom';
+import Registeration from './Registeration';
 
 function App() {
   return (
-    <div className="App">
-      <LoginTemplate/>
-    </div>
+    <Routes>
+      <Route path="/" element={ <LoginTemplate /> }/>
+      <Route path="/registeration" element={ <Registeration/>} />
+    </Routes>
   );
 }
 

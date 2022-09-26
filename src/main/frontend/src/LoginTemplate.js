@@ -16,7 +16,7 @@ class LoginTemplate extends Component{
                 <h5>패스워드</h5>
                 <input type="text"  placeholder='Password'/>
                 <input type="button" id="btt_login" value="로그인"></input>
-                <p>계정이 없으신가요? <Link to="/">계정만들기</Link></p>
+                <p>계정이 없으신가요? <Link to="/registeration" >계정만들기</Link></p>
             </div>
         </div>
         );
